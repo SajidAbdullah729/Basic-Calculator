@@ -1,0 +1,34 @@
+input {
+    width: 160px; /* Set the width */
+    height: 40px; /* Set the height */
+    font-size: 12px; /* Adjust font size */
+    padding: 5px; /* Add padding for spacing */
+}
+.calculator-container
+{
+    
+   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator
+{
+    
+    
+    border:10px solid blue;
+    
+    height:400px;
+    width:210px;
+    
+
+}
+.cal-buttons
+{
+    border-radius: 20px;
+    text-align: centre;
+    cursor: pointer;
+}
+.cal-buttons:hover{
+    background-color: cyan;
+}
