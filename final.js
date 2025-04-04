@@ -1,5 +1,7 @@
+//Load Elements
 const input=document.getElementById("number-input");
 const resulty=document.getElementById("result");
+
 function handleClickButton(el)
 {
     const exp=`${input.value}${el.innerText}`;
