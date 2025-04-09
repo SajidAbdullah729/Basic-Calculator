@@ -8,7 +8,6 @@ function handleClickButton(el)
     input.value=exp;
     if(['+','-','*','/'].includes(el.innerText)) return;
     resulty.value=eval(exp);
-    
 }
 
 function resetd()
